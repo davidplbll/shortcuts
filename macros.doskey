@@ -1,0 +1,13 @@
+ls=dir $* $T
+lumus = git status
+format = npm run format
+test = npm run test:coverage
+finish = npm run format && git add . && git commit -m $*
+ibprun = cd C:\Users\david\Documents\trabajo\IBP\bhdl-ibp-front-end && code . && ng s
+ibp = cd C:\Users\david\Documents\trabajo\IBP\bhdl-ibp-front-end && code .
+push = C:\Users\david\Documents\proyectos\bat\git\push.bat
+pull = C:\Users\david\Documents\proyectos\bat\git\pull.bat
+develop = git pull origin develop
+sqa = git pull origin sqa
+reset = C:\Users\david\Documents\proyectos\bat\git\reset.bat
+projects = cd C:\Users\david\Documents\proyectos
