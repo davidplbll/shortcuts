@@ -1,4 +1,5 @@
 @echo off
+echo validando
 set current_branch=
  for /F "delims=" %%n in ('git branch --show-current') do set "current_branch=%%n"
  if "%current_branch%"=="" echo Not a git branch! && goto :EOF

@@ -1,4 +1,4 @@
-doskey /macrofile=\"C:\Users\david\Documents\proyectos\bat\macros.doskey
+doskey /macrofile=\"D:\documentos\proyectos\bat\shortcuts\macros.doskey
 
-reg add "HKCU\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=\"C:\Users\david\Documents\proyectos\bat\macros.doskey\"" /f
+reg add "HKCU\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=\"D:\documentos\proyectos\bat\shortcuts\macros.doskey\"" /f
 reg query "HKCU\Software\Microsoft\Command Processor" /v Autorun
